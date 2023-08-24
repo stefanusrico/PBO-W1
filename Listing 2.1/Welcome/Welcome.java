@@ -7,7 +7,7 @@ public class Welcome {
             String greeting = "Welcome to Core Java!";
             System.out.println(greeting);
             for(int i = 0; i < greeting.length(); i++)  //menggunakan method length(), untuk menghitung setiap karakter (termasuk spasi) yang terdapat dalam variabel greeting 
-                System.out.println("=");
+                System.out.print("=");
             System.out.println();
     }
 }
